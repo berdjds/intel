@@ -1,0 +1,49 @@
+# Versioning and metadata
+.git
+.gitignore
+.dockerignore
+
+# Build dependencies
+node_modules
+dist
+.next
+out
+
+# Environment (contains sensitive data)
+.env
+.env.*
+!.env.example
+
+# Files not required for production
+README.md
+CHANGELOG.md
+docker-compose.yml
+Dockerfile
+**/Dockerfile
+.editorconfig
+**/README.md
+**/LICENSE
+**/.vscode
+**/.idea
+**/.github
+**/.gitlab
+**/.circleci
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Cache directories
+.npm
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Testing
+coverage
+.nyc_output
